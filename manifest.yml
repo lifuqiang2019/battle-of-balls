@@ -1,0 +1,11 @@
+---
+applications:
+- name: 
+  memory: 512M
+  disk_quota: 1G
+  buildpack: nodejs_buildpack
+  host: 
+  domain: 
+  timeout: 180
+  env:
+    NPM_CONFIG_PRODUCTION: false
